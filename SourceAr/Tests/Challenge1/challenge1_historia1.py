@@ -12,17 +12,16 @@ from SourceAr.Functions.Functions import Functions as Selenium
 class Test(Selenium, unittest.TestCase):
 
     def setUp(self):
-        Selenium.openBrowser(self, "Challenge1")
-        Selenium.get_json_file(self, 'HomePage')
+        Selenium.open_browser(self, "Challenge1")
+        Selenium.get_json_file(self, 'Challenge1', 'HomePage')
 
-    def testInicializar(self):
-        Selenium.esperar_elemento(self, "SearchBox")
+    def test_initialize(self):
+        Selenium.wait_element(self, "SearchBox")
         Selenium.get_elements(self, "SearchBox").send_keys("Okaaaay")
-        Selenium.esperar(self, 10)
+        Selenium.wait(self, 3)
 
-
-def teardown(self):
-    Selenium.tearDown(self)
+    def tear_down(self):
+        Selenium.tear_down(self)
 
 
 if __name__ == "__main__":
