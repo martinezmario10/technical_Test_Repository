@@ -3,8 +3,8 @@ import os
 
 class Initialize():
     basedir = os.path.abspath(os.path.join(__file__, "../../"))
-    DateFormat = '%d/%m/%y'
-    HourFormat = '%H%M%S'
+    date_format = '%d/%m/%y'
+    hour_format = '%H%M%S'
 
     # JsonData
     Json = basedir + u'\Pages'
@@ -14,7 +14,7 @@ class Initialize():
     browser = u'FIREFOX'
 
     # Directory / Evidence Storage During Execution
-    path_evidences = basedir + u'\data\ScreenShots'
+    path_evidences = basedir + u'\Data\ScreenShots'
 
     # Environment variable
     if environment == 'QA':

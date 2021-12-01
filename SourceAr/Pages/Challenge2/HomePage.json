@@ -1,7 +1,0 @@
-{
-    "chk_taxes_no": {
-    "GetFieldBy": "Xpath",
-    "ValueToFind": "//label[@id='includeTaxesNLabel']"
-    }
-
-  }
