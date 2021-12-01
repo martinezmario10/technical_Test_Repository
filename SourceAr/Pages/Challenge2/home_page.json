@@ -1,0 +1,61 @@
+{
+    "btn_com": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[6]/div[1]/button[1]/*[1]"
+    },
+
+    "txt_home_price": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]"
+    },
+
+    "txt_dollar_down_payment": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='downPayment']"
+    },
+
+  "chk_down_payment_amount": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='buttonAmount']"
+    },
+
+   "chk_down_payment": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='buttonPercent']"
+    },
+
+    "txt_down_payment": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/input[1]"
+    },
+
+    "slt_loan_term": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='term']"
+    },
+
+    "txt_interest_rate": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='rate']"
+    },
+
+    "txt_zip": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='zip']"
+    },
+
+    "chk_taxes_no": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@id='includeTaxesNLabel']"
+    },
+
+    "btn_calculate": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='calculateButton']"
+    },
+
+    "lbl_fee": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/main[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/p[2]"
+    }
+}
