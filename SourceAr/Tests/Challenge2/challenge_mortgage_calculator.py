@@ -57,8 +57,6 @@ class Test(selenium, unittest.TestCase):
             result_convert_website = challenge2.convert_result(self, result_website)
             flag_final_result = challenge2.compliance_percentage(self, float(result_formula),
                                                                  float(result_convert_website))
-            # flag_final_result = challenge2.compliance_percentage(self, float(result_formula),
-            # float("10.2"))
 
             if flag_final_result:
                 print("The calculation performed complies with the formula in a 99.99%")
