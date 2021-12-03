@@ -2626,9 +2626,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1638505858441	Marionette	INFO	Listening on port 55392
 1638505858927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
-1638506169354	geckodriver	INFO	Listening on 127.0.0.1:55466
-1638506172412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXKDOgw"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXKDOgw\\search.json.mozlz4", (void 0), 215))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638509128860	Marionette	INFO	Stopped listening on port 55392
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ngs file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXKDOgw\\search.json.mozlz4", (void 0), 215))
 1638506172925	Marionette	INFO	Marionette enabled
 1638506175754	Marionette	INFO	Listening on port 55474
 1638506176088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -2655,4 +2659,1114 @@ JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, 
 1638506447636	Marionette	INFO	Stopped listening on port 55619
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638506603198	geckodriver	INFO	Listening on 127.0.0.1:55887
+1638506606265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileB1L9pV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileB1L9pV\\search.json.mozlz4", (void 0), 215))
+1638506606923	Marionette	INFO	Marionette enabled
+1638506609890	Marionette	INFO	Listening on port 55895
+1638506609984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638506617178	Marionette	INFO	Stopped listening on port 55895
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638506674329	geckodriver	INFO	Listening on 127.0.0.1:55956
+1638506677396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileEkZk49"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileEkZk49\\search.json.mozlz4", (void 0), 215))
+1638506677970	Marionette	INFO	Marionette enabled
+1638506680720	Marionette	INFO	Listening on port 55964
+1638506681100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638506689507	Marionette	INFO	Stopped listening on port 55964
+1638506785515	geckodriver	INFO	Listening on 127.0.0.1:56009
+1638506788610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRmX9XH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRmX9XH\\search.json.mozlz4", (void 0), 215))
+1638506789118	Marionette	INFO	Marionette enabled
+1638506792225	Marionette	INFO	Listening on port 56018
+1638506792329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638506799515	Marionette	INFO	Stopped listening on port 56018
+1638506943704	geckodriver	INFO	Listening on 127.0.0.1:56147
+1638506946782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileyVLz7h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileyVLz7h\\search.json.mozlz4", (void 0), 215))
+1638506947254	Marionette	INFO	Marionette enabled
+1638506950226	Marionette	INFO	Listening on port 56155
+1638506950475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638506957605	Marionette	INFO	Stopped listening on port 56155
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638507017763	geckodriver	INFO	Listening on 127.0.0.1:56223
+1638507020862	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileAZG3dc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileAZG3dc\\search.json.mozlz4", (void 0), 215))
+1638507021365	Marionette	INFO	Marionette enabled
+1638507024116	Marionette	INFO	Listening on port 56231
+1638507024543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638507031012	Marionette	INFO	Stopped listening on port 56231
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638507164696	geckodriver	INFO	Listening on 127.0.0.1:56285
+1638507167795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileC0sG4T"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileC0sG4T\\search.json.mozlz4", (void 0), 215))
+1638507168292	Marionette	INFO	Marionette enabled
+1638507170899	Marionette	INFO	Listening on port 56296
+1638507170994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638507177176	Marionette	INFO	Stopped listening on port 56296
+1638507196682	geckodriver	INFO	Listening on 127.0.0.1:56344
+1638507199795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileGDcGyJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileGDcGyJ\\search.json.mozlz4", (void 0), 215))
+1638507200268	Marionette	INFO	Marionette enabled
+1638507203482	Marionette	INFO	Listening on port 56352
+1638507203993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638507210801	Marionette	INFO	Stopped listening on port 56352
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638507363134	geckodriver	INFO	Listening on 127.0.0.1:56403
+1638507366221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile3RweMw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile3RweMw\\search.json.mozlz4", (void 0), 215))
+1638507366690	Marionette	INFO	Marionette enabled
+1638507369359	Marionette	INFO	Listening on port 56411
+1638507369414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638507391202	Marionette	INFO	Stopped listening on port 56411
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638507698240	geckodriver	INFO	Listening on 127.0.0.1:56480
+1638507701314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRKIsVm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRKIsVm\\search.json.mozlz4", (void 0), 215))
+1638507701782	Marionette	INFO	Marionette enabled
+1638507704685	Marionette	INFO	Listening on port 56488
+1638507705005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638507728208	Marionette	INFO	Stopped listening on port 56488
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638543308481	geckodriver	INFO	Listening on 127.0.0.1:65012
+1638543311499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilek8HfQZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilek8HfQZ\\search.json.mozlz4", (void 0), 215))
+1638543312152	Marionette	INFO	Marionette enabled
+1638543315556	Marionette	INFO	Listening on port 65020
+1638543315706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638543337507	Marionette	INFO	Stopped listening on port 65020
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638544554116	geckodriver	INFO	Listening on 127.0.0.1:65041
+1638544557157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilec36FyI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilec36FyI\\search.json.mozlz4", (void 0), 215))
+1638544557657	Marionette	INFO	Marionette enabled
+1638544560869	Marionette	INFO	Listening on port 58741
+1638544561340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638544654982	Marionette	INFO	Stopped listening on port 58741
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile8EFSLy\\search.json.mozlz4", (void 0), 215))
+1638544603340	Marionette	INFO	Marionette enabled
+1638544606340	Marionette	INFO	Listening on port 58813
+1638544606534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638544655973	Marionette	INFO	Stopped listening on port 58813
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638544668313	geckodriver	INFO	Listening on 127.0.0.1:58870
+1638544671353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile0AtkXF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile0AtkXF\\search.json.mozlz4", (void 0), 215))
+1638544671874	Marionette	INFO	Marionette enabled
+1638544675092	Marionette	INFO	Listening on port 58878
+1638544675576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638544697388	Marionette	INFO	Stopped listening on port 58878
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638544859947	geckodriver	INFO	Listening on 127.0.0.1:50858
+1638544863043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileGaUXI1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileGaUXI1\\search.json.mozlz4", (void 0), 215))
+1638544863555	Marionette	INFO	Marionette enabled
+1638544866725	Marionette	INFO	Listening on port 50866
+1638544867217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638544873575	Marionette	INFO	Stopped listening on port 50866
+1638544917955	geckodriver	INFO	Listening on 127.0.0.1:50914
+1638544920982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMfy0Bl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMfy0Bl\\search.json.mozlz4", (void 0), 215))
+1638544921649	Marionette	INFO	Marionette enabled
+1638544924682	Marionette	INFO	Listening on port 50922
+1638544925886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638544937505	Marionette	INFO	Stopped listening on port 50922
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: can't access property "provider", this.tablesData[table] is undefined
+1638544992155	geckodriver	INFO	Listening on 127.0.0.1:50979
+1638544995210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilef2pQ9f"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilef2pQ9f\\search.json.mozlz4", (void 0), 215))
+1638544996077	Marionette	INFO	Marionette enabled
+1638544999411	Marionette	INFO	Listening on port 50987
+1638544999537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638545023392	Marionette	INFO	Stopped listening on port 50987
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638545413646	geckodriver	INFO	Listening on 127.0.0.1:49346
+1638545416697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilefUCHlj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilefUCHlj\\search.json.mozlz4", (void 0), 215))
+1638545417278	Marionette	INFO	Marionette enabled
+1638545420382	Marionette	INFO	Listening on port 49354
+1638545420947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638545430993	Marionette	INFO	Stopped listening on port 49354
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638545946432	geckodriver	INFO	Listening on 127.0.0.1:56640
+1638545949524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileLoPj9S"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileLoPj9S\\search.json.mozlz4", (void 0), 215))
+1638545950139	Marionette	INFO	Marionette enabled
+1638545953080	Marionette	INFO	Listening on port 56648
+1638545953223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638545960131	Marionette	INFO	Stopped listening on port 56648
+1638546105616	geckodriver	INFO	Listening on 127.0.0.1:56740
+1638546108684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileZoZ3Mz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileZoZ3Mz\\search.json.mozlz4", (void 0), 215))
+1638546109315	Marionette	INFO	Marionette enabled
+1638546113601	Marionette	INFO	Listening on port 56748
+1638546114010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638546123129	Marionette	INFO	Stopped listening on port 56748
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638547155999	geckodriver	INFO	Listening on 127.0.0.1:49156
+1638547159061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilerYv2bU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilerYv2bU\\search.json.mozlz4", (void 0), 215))
+1638547159860	Marionette	INFO	Marionette enabled
+1638547163926	Marionette	INFO	Listening on port 49164
+1638547164572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638547169910	Marionette	INFO	Stopped listening on port 49164
+1638547470119	geckodriver	INFO	Listening on 127.0.0.1:49216
+1638547473187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRv2Slw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRv2Slw\\search.json.mozlz4", (void 0), 215))
+1638547473852	Marionette	INFO	Marionette enabled
+1638547477578	Marionette	INFO	Listening on port 49224
+1638547478170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638547485209	Marionette	INFO	Stopped listening on port 49224
+1638547651561	geckodriver	INFO	Listening on 127.0.0.1:49356
+1638547654637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilelNE8ct"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilelNE8ct\\search.json.mozlz4", (void 0), 215))
+1638547655325	Marionette	INFO	Marionette enabled
+1638547658438	Marionette	INFO	Listening on port 49364
+1638547658847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638548259773	Marionette	INFO	Stopped listening on port 49364
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRzZcPN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRzZcPN\\search.json.mozlz4", (void 0), 215))
+1638547723389	Marionette	INFO	Marionette enabled
+1638547726769	Marionette	INFO	Listening on port 49429
+1638547727039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638547736641	Marionette	INFO	Stopped listening on port 49429
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638547821953	geckodriver	INFO	Listening on 127.0.0.1:56189
+1638547825013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilen601xz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilen601xz\\search.json.mozlz4", (void 0), 215))
+1638547825551	Marionette	INFO	Marionette enabled
+1638547828895	Marionette	INFO	Listening on port 56197
+1638547829219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638547835967	Marionette	INFO	Stopped listening on port 56197
+[Parent 45508, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+1638547866889	geckodriver	INFO	Listening on 127.0.0.1:56254
+1638547869956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileWyB8WJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileWyB8WJ\\search.json.mozlz4", (void 0), 215))
+1638547870532	Marionette	INFO	Marionette enabled
+1638547873763	Marionette	INFO	Listening on port 56262
+1638547874136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638548033092	Marionette	INFO	Stopped listening on port 56262
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638548554322	geckodriver	INFO	Listening on 127.0.0.1:62264
+1638548557428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileoPfxSd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileoPfxSd\\search.json.mozlz4", (void 0), 215))
+1638548557981	Marionette	INFO	Marionette enabled
+1638548561730	Marionette	INFO	Listening on port 62272
+1638548562228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638548569595	Marionette	INFO	Stopped listening on port 62272
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638548600488	geckodriver	INFO	Listening on 127.0.0.1:62336
+1638548603530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilezCC0dA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilezCC0dA\\search.json.mozlz4", (void 0), 215))
+1638548604072	Marionette	INFO	Marionette enabled
+1638548607206	Marionette	INFO	Listening on port 62344
+1638548607747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638548617215	Marionette	INFO	Stopped listening on port 62344
+1638548704123	geckodriver	INFO	Listening on 127.0.0.1:62386
+1638548707184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileipcH0j"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileipcH0j\\search.json.mozlz4", (void 0), 215))
+1638548707719	Marionette	INFO	Marionette enabled
+1638548710900	Marionette	INFO	Listening on port 62394
+1638548711368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638548742020	Marionette	INFO	Stopped listening on port 62394
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638550977645	geckodriver	INFO	Listening on 127.0.0.1:57030
+1638550980727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilejcldka"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilejcldka\\search.json.mozlz4", (void 0), 215))
+1638550981361	Marionette	INFO	Marionette enabled
+1638550986008	Marionette	INFO	Listening on port 57038
+1638550986060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638550996224	Marionette	INFO	Stopped listening on port 57038
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638551074615	geckodriver	INFO	Listening on 127.0.0.1:57092
+1638551077691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilePmhKFd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilePmhKFd\\search.json.mozlz4", (void 0), 215))
+1638551078265	Marionette	INFO	Marionette enabled
+1638551081363	Marionette	INFO	Listening on port 57100
+1638551081402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551096548	Marionette	INFO	Stopped listening on port 57100
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638551132088	geckodriver	INFO	Listening on 127.0.0.1:57144
+1638551135156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileaZsI6m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileaZsI6m\\search.json.mozlz4", (void 0), 215))
+1638551135688	Marionette	INFO	Marionette enabled
+1638551138669	Marionette	INFO	Listening on port 57152
+1638551138859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551153116	Marionette	INFO	Stopped listening on port 57152
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638551273870	geckodriver	INFO	Listening on 127.0.0.1:57207
+1638551276947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMOHl3M"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMOHl3M\\search.json.mozlz4", (void 0), 215))
+1638551277477	Marionette	INFO	Marionette enabled
+1638551280655	Marionette	INFO	Listening on port 57219
+1638551281146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551290314	Marionette	INFO	Stopped listening on port 57219
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638551320721	geckodriver	INFO	Listening on 127.0.0.1:57266
+1638551323814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile0lcAWK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile0lcAWK\\search.json.mozlz4", (void 0), 215))
+1638551324360	Marionette	INFO	Marionette enabled
+1638551327489	Marionette	INFO	Listening on port 57276
+1638551328016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551346383	Marionette	INFO	Stopped listening on port 57276
+1638551372302	geckodriver	INFO	Listening on 127.0.0.1:60455
+1638551375360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileIOxFGf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileIOxFGf\\search.json.mozlz4", (void 0), 215))
+1638551375987	Marionette	INFO	Marionette enabled
+1638551379484	Marionette	INFO	Listening on port 60463
+1638551379548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551414196	Marionette	INFO	Stopped listening on port 60463
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1638551489079	geckodriver	INFO	Listening on 127.0.0.1:60502
+1638551492166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilexQH0Gv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilexQH0Gv\\search.json.mozlz4", (void 0), 215))
+1638551492707	Marionette	INFO	Marionette enabled
+1638551495778	Marionette	INFO	Listening on port 60510
+1638551495862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551504482	Marionette	INFO	Stopped listening on port 60510
+1638551545891	geckodriver	INFO	Listening on 127.0.0.1:60555
+1638551548940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilevDb42U"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilevDb42U\\search.json.mozlz4", (void 0), 215))
+1638551549759	Marionette	INFO	Marionette enabled
+1638551553766	Marionette	INFO	Listening on port 60563
+1638551554266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551563197	Marionette	INFO	Stopped listening on port 60563
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638551682897	geckodriver	INFO	Listening on 127.0.0.1:60610
+1638551685956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile6XAoPQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile6XAoPQ\\search.json.mozlz4", (void 0), 215))
+1638551686502	Marionette	INFO	Marionette enabled
+1638551689676	Marionette	INFO	Listening on port 60619
+1638551690153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551699573	Marionette	INFO	Stopped listening on port 60619
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638551722677	geckodriver	INFO	Listening on 127.0.0.1:60677
+1638551725754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileybSZ9D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileybSZ9D\\search.json.mozlz4", (void 0), 215))
+1638551726314	Marionette	INFO	Marionette enabled
+1638551729803	Marionette	INFO	Listening on port 60685
+1638551729936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638557690153	Marionette	INFO	Stopped listening on port 60685
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ngs file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofiles78qN4\\search.json.mozlz4", (void 0), 215))
+1638551807968	Marionette	INFO	Marionette enabled
+1638551811415	Marionette	INFO	Listening on port 56968
+1638551811619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551830165	Marionette	INFO	Stopped listening on port 56968
+1638551877622	geckodriver	INFO	Listening on 127.0.0.1:57029
+1638551880722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile2Ob2hu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile2Ob2hu\\search.json.mozlz4", (void 0), 215))
+1638551881259	Marionette	INFO	Marionette enabled
+1638551888812	Marionette	INFO	Listening on port 57040
+1638551889182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638551898183	Marionette	INFO	Stopped listening on port 57040
+[Parent 24400, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638552054927	geckodriver	INFO	Listening on 127.0.0.1:53978
+1638552057970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilef9Kf9S"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilef9Kf9S\\search.json.mozlz4", (void 0), 215))
+1638552058532	Marionette	INFO	Marionette enabled
+1638552062449	Marionette	INFO	Listening on port 53986
+1638552062756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638552078995	Marionette	INFO	Stopped listening on port 53986
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638552366516	geckodriver	INFO	Listening on 127.0.0.1:58265
+1638552369598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileo52K6s"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileo52K6s\\search.json.mozlz4", (void 0), 215))
+1638552370265	Marionette	INFO	Marionette enabled
+1638552373784	Marionette	INFO	Listening on port 58274
+1638552373845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638552381911	Marionette	INFO	Stopped listening on port 58274
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638552412821	geckodriver	INFO	Listening on 127.0.0.1:58343
+1638552415923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilex9l7Ff"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilex9l7Ff\\search.json.mozlz4", (void 0), 215))
+1638552416460	Marionette	INFO	Marionette enabled
+1638552419764	Marionette	INFO	Listening on port 58352
+1638552420120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638552435935	Marionette	INFO	Stopped listening on port 58352
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638552478055	geckodriver	INFO	Listening on 127.0.0.1:52854
+1638552481126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDq5z44"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDq5z44\\search.json.mozlz4", (void 0), 215))
+1638552481710	Marionette	INFO	Marionette enabled
+1638552485376	Marionette	INFO	Listening on port 52863
+1638552485441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638552510213	Marionette	INFO	Stopped listening on port 52863
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638555245092	geckodriver	INFO	Listening on 127.0.0.1:64556
+1638555248180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilewYo2dj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilewYo2dj\\search.json.mozlz4", (void 0), 215))
+1638555248867	Marionette	INFO	Marionette enabled
+1638555253001	Marionette	INFO	Listening on port 64566
+1638555253611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638555277444	Marionette	INFO	Stopped listening on port 64566
+1638555821415	geckodriver	INFO	Listening on 127.0.0.1:61511
+1638555824484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilexld3dG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilexld3dG\\search.json.mozlz4", (void 0), 215))
+1638555825126	Marionette	INFO	Marionette enabled
+1638555828680	Marionette	INFO	Listening on port 61521
+1638555828785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638555845927	Marionette	INFO	Stopped listening on port 61521
+1638556963292	geckodriver	INFO	Listening on 127.0.0.1:59364
+1638556966345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXCR9ZD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXCR9ZD\\search.json.mozlz4", (void 0), 215))
+1638556967157	Marionette	INFO	Marionette enabled
+1638556972782	Marionette	INFO	Listening on port 59374
+1638556972939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638557690989	Marionette	INFO	Stopped listening on port 59374
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileNAvvwo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileNAvvwo\\search.json.mozlz4", (void 0), 215))
+1638557112205	Marionette	INFO	Marionette enabled
+1638557115615	Marionette	INFO	Listening on port 59520
+1638557115810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638557691702	Marionette	INFO	Stopped listening on port 59520
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile8F1ZBQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile8F1ZBQ\\search.json.mozlz4", (void 0), 215))
+1638557235562	Marionette	INFO	Marionette enabled
+1638557238995	Marionette	INFO	Listening on port 61439
+1638557239162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638557251510	Marionette	INFO	Stopped listening on port 61439
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638557302488	geckodriver	INFO	Listening on 127.0.0.1:61532
+1638557305577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMR4PwC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMR4PwC\\search.json.mozlz4", (void 0), 215))
+1638557306215	Marionette	INFO	Marionette enabled
+1638557310144	Marionette	INFO	Listening on port 61542
+1638557310410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638557692385	Marionette	INFO	Stopped listening on port 61542
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638557732987	geckodriver	INFO	Listening on 127.0.0.1:57188
+1638557736044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileoem3RE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileoem3RE\\search.json.mozlz4", (void 0), 215))
+1638557736676	Marionette	INFO	Marionette enabled
+1638557740628	Marionette	INFO	Listening on port 57205
+1638557740882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638562097591	Marionette	INFO	Stopped listening on port 57205
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ngs file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilegyLUPc\\search.json.mozlz4", (void 0), 215))
+1638557836398	Marionette	INFO	Marionette enabled
+1638557839916	Marionette	INFO	Listening on port 57344
+1638557840028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638562098740	Marionette	INFO	Stopped listening on port 57344
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+OlhMNg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileOlhMNg\\search.json.mozlz4", (void 0), 215))
+1638561918238	Marionette	INFO	Marionette enabled
+1638561922111	Marionette	INFO	Listening on port 61285
+1638561922694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638561935665	Marionette	INFO	Stopped listening on port 61285
+1638561948570	geckodriver	INFO	Listening on 127.0.0.1:61360
+1638561951634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile9K5VcC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile9K5VcC\\search.json.mozlz4", (void 0), 215))
+1638561952557	Marionette	INFO	Marionette enabled
+1638561956106	Marionette	INFO	Listening on port 61370
+1638561956667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638561971977	Marionette	INFO	Stopped listening on port 61370
+1638562330389	geckodriver	INFO	Listening on 127.0.0.1:53198
+1638562333398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile6iX9Uq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile6iX9Uq\\search.json.mozlz4", (void 0), 215))
+1638562334773	Marionette	INFO	Marionette enabled
+1638562339749	Marionette	INFO	Listening on port 53208
+1638562339917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638562359275	Marionette	INFO	Stopped listening on port 53208
+1638562391766	geckodriver	INFO	Listening on 127.0.0.1:53312
+1638562394826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileFro8Xx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileFro8Xx\\search.json.mozlz4", (void 0), 215))
+1638562395560	Marionette	INFO	Marionette enabled
+1638562398984	Marionette	INFO	Listening on port 53321
+1638562399139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638562936097	Marionette	INFO	Stopped listening on port 53321
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+t: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilemzWcKj\\search.json.mozlz4", (void 0), 215))
+1638562822532	Marionette	INFO	Marionette enabled
+1638562826464	Marionette	INFO	Listening on port 64491
+1638562826764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638562936893	Marionette	INFO	Stopped listening on port 64491
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileE4jmTh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileE4jmTh\\search.json.mozlz4", (void 0), 215))
+1638562885820	Marionette	INFO	Marionette enabled
+1638562890441	Marionette	INFO	Listening on port 64589
+1638562891075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638562937799	Marionette	INFO	Stopped listening on port 64589
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1638562948081	geckodriver	INFO	Listening on 127.0.0.1:64682
+1638562951134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileUHRmCH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileUHRmCH\\search.json.mozlz4", (void 0), 215))
+1638562952101	Marionette	INFO	Marionette enabled
+1638562959840	Marionette	INFO	Listening on port 64692
+1638562960374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638566899753	Marionette	INFO	Stopped listening on port 64692
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileTp8zxl\\search.json.mozlz4", (void 0), 215))
+1638563024775	Marionette	INFO	Marionette enabled
+1638563028438	Marionette	INFO	Listening on port 64787
+1638563028980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638566900451	Marionette	INFO	Stopped listening on port 64787
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ata\\Local\\Temp\\rust_mozprofile6kTQD6\\search.json.mozlz4", (void 0), 215))
+1638563138614	Marionette	INFO	Marionette enabled
+1638563142333	Marionette	INFO	Listening on port 64908
+1638563142864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638566901247	Marionette	INFO	Stopped listening on port 64908
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilebvzPJy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilebvzPJy\\search.json.mozlz4", (void 0), 215))
+1638566628212	Marionette	INFO	Marionette enabled
+1638566633031	Marionette	INFO	Listening on port 50267
+1638566633257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638566640611	Marionette	INFO	Stopped listening on port 50267
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: can't access property "provider", this.tablesData[table] is undefined
+1638566690176	geckodriver	INFO	Listening on 127.0.0.1:50366
+1638566693239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilekU3eWy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilekU3eWy\\search.json.mozlz4", (void 0), 215))
+1638566693975	Marionette	INFO	Marionette enabled
+1638566697466	Marionette	INFO	Listening on port 50376
+1638566697695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638566701988	Marionette	INFO	Stopped listening on port 50376
+1638566803377	geckodriver	INFO	Listening on 127.0.0.1:50466
+1638566806456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilepRjMFv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilepRjMFv\\search.json.mozlz4", (void 0), 215))
+1638566807208	Marionette	INFO	Marionette enabled
+1638566811557	Marionette	INFO	Listening on port 50475
+1638566811735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638566902117	Marionette	INFO	Stopped listening on port 50475
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRRpxT0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileRRpxT0\\search.json.mozlz4", (void 0), 215))
+1638566826003	Marionette	INFO	Marionette enabled
+1638566829722	Marionette	INFO	Listening on port 50550
+1638566829754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638566850820	Marionette	INFO	Stopped listening on port 50550
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638566962973	geckodriver	INFO	Listening on 127.0.0.1:57433
+1638566966029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQRvSp4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQRvSp4\\search.json.mozlz4", (void 0), 215))
+1638566966781	Marionette	INFO	Marionette enabled
+1638566970330	Marionette	INFO	Listening on port 57442
+1638566970390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638567013059	Marionette	INFO	Stopped listening on port 57442
+1638567167506	geckodriver	INFO	Listening on 127.0.0.1:57611
+1638567170572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQTUX9M"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQTUX9M\\search.json.mozlz4", (void 0), 215))
+1638567171361	Marionette	INFO	Marionette enabled
+1638567175531	Marionette	INFO	Listening on port 57620
+1638567175615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638567987121	Marionette	INFO	Stopped listening on port 57620
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+\\Local\\Temp\\rust_mozprofileJg4pvD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileJg4pvD\\search.json.mozlz4", (void 0), 215))
+1638567265423	Marionette	INFO	Marionette enabled
+1638567269900	Marionette	INFO	Listening on port 57729
+1638567270480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638567302011	Marionette	INFO	Stopped listening on port 57729
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638567334159	geckodriver	INFO	Listening on 127.0.0.1:57828
+1638567337208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilen7CePl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilen7CePl\\search.json.mozlz4", (void 0), 215))
+1638567337914	Marionette	INFO	Marionette enabled
+1638567340972	Marionette	INFO	Listening on port 57837
+1638567341413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638567986007	Marionette	INFO	Stopped listening on port 57837
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+LSyMfh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileLSyMfh\\search.json.mozlz4", (void 0), 215))
+1638567725449	Marionette	INFO	Marionette enabled
+1638567729193	Marionette	INFO	Listening on port 64403
+1638567729697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638567985258	Marionette	INFO	Stopped listening on port 64403
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile2VLsqI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofile2VLsqI\\search.json.mozlz4", (void 0), 215))
+1638567867334	Marionette	INFO	Marionette enabled
+1638567870626	Marionette	INFO	Listening on port 64568
+1638567870897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638567970342	Marionette	INFO	Stopped listening on port 64568
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638568127625	geckodriver	INFO	Listening on 127.0.0.1:51309
+1638568130699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileTaEV63"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileTaEV63\\search.json.mozlz4", (void 0), 215))
+1638568131468	Marionette	INFO	Marionette enabled
+1638568135020	Marionette	INFO	Listening on port 51318
+1638568135550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638568150773	Marionette	INFO	Stopped listening on port 51318
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638568199358	geckodriver	INFO	Listening on 127.0.0.1:51402
+1638568202412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileyXhtRG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileyXhtRG\\search.json.mozlz4", (void 0), 215))
+1638568203127	Marionette	INFO	Marionette enabled
+1638568206332	Marionette	INFO	Listening on port 51412
+1638568206617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638568216847	Marionette	INFO	Stopped listening on port 51412
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390116,name=PContent::Msg_AccumulateChildHistograms) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39011B,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638568333070	geckodriver	INFO	Listening on 127.0.0.1:51525
+1638568336181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileYDudA6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileYDudA6\\search.json.mozlz4", (void 0), 215))
+1638568336727	Marionette	INFO	Marionette enabled
+1638568340039	Marionette	INFO	Listening on port 51534
+1638568340383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638568348605	Marionette	INFO	Stopped listening on port 51534
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638568474677	geckodriver	INFO	Listening on 127.0.0.1:61420
+1638568477807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileOrfU6k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileOrfU6k\\search.json.mozlz4", (void 0), 215))
+1638568478320	Marionette	INFO	Marionette enabled
+1638568481562	Marionette	INFO	Listening on port 61429
+1638568482044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638568490941	Marionette	INFO	Stopped listening on port 61429
+1638568886140	geckodriver	INFO	Listening on 127.0.0.1:51823
+1638568889226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilesmFFrl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilesmFFrl\\search.json.mozlz4", (void 0), 215))
+1638568889821	Marionette	INFO	Marionette enabled
+1638568896941	Marionette	INFO	Listening on port 51832
+1638568898901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638568940732	Marionette	INFO	Stopped listening on port 51832
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638569267359	geckodriver	INFO	Listening on 127.0.0.1:63277
+1638569270452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileAE0zEZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileAE0zEZ\\search.json.mozlz4", (void 0), 215))
+1638569270977	Marionette	INFO	Marionette enabled
+1638569275687	Marionette	INFO	Listening on port 63287
+1638569275778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638569314267	Marionette	INFO	Stopped listening on port 63287
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638569777801	geckodriver	INFO	Listening on 127.0.0.1:63591
+1638569780863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilecAU7Jf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilecAU7Jf\\search.json.mozlz4", (void 0), 215))
+1638569781445	Marionette	INFO	Marionette enabled
+1638569785055	Marionette	INFO	Listening on port 63601
+1638569785175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638569789947	Marionette	INFO	Stopped listening on port 63601
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638569821234	geckodriver	INFO	Listening on 127.0.0.1:63659
+1638569824313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilegEPAcj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilegEPAcj\\search.json.mozlz4", (void 0), 215))
+1638569824925	Marionette	INFO	Marionette enabled
+1638569828977	Marionette	INFO	Listening on port 63668
+1638569829129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638569832939	Marionette	INFO	Stopped listening on port 63668
+[Parent 39928, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638569845216	geckodriver	INFO	Listening on 127.0.0.1:56345
+1638569848261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileChOU9Z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileChOU9Z\\search.json.mozlz4", (void 0), 215))
+1638569848869	Marionette	INFO	Marionette enabled
+1638569852213	Marionette	INFO	Listening on port 56354
+1638569852465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638569859114	Marionette	INFO	Stopped listening on port 56354
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638569972896	geckodriver	INFO	Listening on 127.0.0.1:56476
+1638569976006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileFlxOkj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileFlxOkj\\search.json.mozlz4", (void 0), 215))
+1638569976673	Marionette	INFO	Marionette enabled
+1638569979868	Marionette	INFO	Listening on port 56485
+1638569980247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638569989031	Marionette	INFO	Stopped listening on port 56485
+1638570045483	geckodriver	INFO	Listening on 127.0.0.1:56568
+1638570048540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQUqc9M"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileQUqc9M\\search.json.mozlz4", (void 0), 215))
+1638570049186	Marionette	INFO	Marionette enabled
+1638570053362	Marionette	INFO	Listening on port 56577
+1638570053883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638570061925	Marionette	INFO	Stopped listening on port 56577
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638570078991	geckodriver	INFO	Listening on 127.0.0.1:56646
+1638570082066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilenSUnL5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilenSUnL5\\search.json.mozlz4", (void 0), 215))
+1638570082705	Marionette	INFO	Marionette enabled
+1638570086273	Marionette	INFO	Listening on port 56655
+1638570086399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638570125516	Marionette	INFO	Stopped listening on port 56655
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638570484808	geckodriver	INFO	Listening on 127.0.0.1:53926
+1638570487867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileBPzDxr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileBPzDxr\\search.json.mozlz4", (void 0), 215))
+1638570488439	Marionette	INFO	Marionette enabled
+1638570491699	Marionette	INFO	Listening on port 53934
+1638570492269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638570499763	Marionette	INFO	Stopped listening on port 53934
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638570575540	geckodriver	INFO	Listening on 127.0.0.1:53998
+1638570578587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDWZ3bj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDWZ3bj\\search.json.mozlz4", (void 0), 215))
+1638570579845	Marionette	INFO	Marionette enabled
+1638570583449	Marionette	INFO	Listening on port 54006
+1638570583895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638570598587	Marionette	INFO	Stopped listening on port 54006
+1638571264068	geckodriver	INFO	Listening on 127.0.0.1:50007
+1638571267137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileYlJaeV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileYlJaeV\\search.json.mozlz4", (void 0), 215))
+1638571267667	Marionette	INFO	Marionette enabled
+1638571270643	Marionette	INFO	Listening on port 50016
+1638571270838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638571402022	Marionette	INFO	Stopped listening on port 50016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638572428947	geckodriver	INFO	Listening on 127.0.0.1:64807
+1638572431995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilezTwBEZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilezTwBEZ\\search.json.mozlz4", (void 0), 215))
+1638572432515	Marionette	INFO	Marionette enabled
+1638572435863	Marionette	INFO	Listening on port 64817
+1638572436191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638572480478	Marionette	INFO	Stopped listening on port 64817
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638572567040	geckodriver	INFO	Listening on 127.0.0.1:64965
+1638572570126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXd49m3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileXd49m3\\search.json.mozlz4", (void 0), 215))
+1638572570683	Marionette	INFO	Marionette enabled
+1638572574442	Marionette	INFO	Listening on port 64975
+1638572574957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638573875352	Marionette	INFO	Stopped listening on port 64975
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+t C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMG7GnH\\search.json.mozlz4", (void 0), 215))
+1638572637242	Marionette	INFO	Marionette enabled
+1638572640509	Marionette	INFO	Listening on port 65071
+1638572640939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638572695850	Marionette	INFO	Stopped listening on port 65071
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1638572725436	geckodriver	INFO	Listening on 127.0.0.1:65164
+1638572728522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileeg3JhY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileeg3JhY\\search.json.mozlz4", (void 0), 215))
+1638572729114	Marionette	INFO	Marionette enabled
+1638572732612	Marionette	INFO	Listening on port 65173
+1638572732733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638572740518	Marionette	INFO	Stopped listening on port 65173
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638572772577	geckodriver	INFO	Listening on 127.0.0.1:65243
+1638572775632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilenSJKpU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilenSJKpU\\search.json.mozlz4", (void 0), 215))
+1638572776403	Marionette	INFO	Marionette enabled
+1638572779874	Marionette	INFO	Listening on port 65253
+1638572779922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638573876321	Marionette	INFO	Stopped listening on port 65253
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ers\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileCrTMgh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileCrTMgh\\search.json.mozlz4", (void 0), 215))
+1638573336169	Marionette	INFO	Marionette enabled
+1638573339095	Marionette	INFO	Listening on port 57566
+1638573339355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638573348087	Marionette	INFO	Stopped listening on port 57566
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638573450167	geckodriver	INFO	Listening on 127.0.0.1:53574
+1638573453272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilemkCNlH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilemkCNlH\\search.json.mozlz4", (void 0), 215))
+1638573453810	Marionette	INFO	Marionette enabled
+1638573456648	Marionette	INFO	Listening on port 53582
+1638573456984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638573467877	Marionette	INFO	Stopped listening on port 53582
+1638573625793	geckodriver	INFO	Listening on 127.0.0.1:53647
+1638573628930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileNEdYtb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileNEdYtb\\search.json.mozlz4", (void 0), 215))
+1638573629395	Marionette	INFO	Marionette enabled
+1638573632320	Marionette	INFO	Listening on port 53655
+1638573632600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638573730725	Marionette	INFO	Stopped listening on port 53655
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638573756362	geckodriver	INFO	Listening on 127.0.0.1:53716
+1638573759482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileh0bK9E"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileh0bK9E\\search.json.mozlz4", (void 0), 215))
+1638573760141	Marionette	INFO	Marionette enabled
+1638573763190	Marionette	INFO	Listening on port 53724
+1638573763696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638573792384	Marionette	INFO	Stopped listening on port 53724
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1638574128651	geckodriver	INFO	Listening on 127.0.0.1:59011
+1638574131693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMS9AU4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileMS9AU4\\search.json.mozlz4", (void 0), 215))
+1638574132284	Marionette	INFO	Marionette enabled
+1638574135374	Marionette	INFO	Listening on port 59019
+1638574135881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638574142970	Marionette	INFO	Stopped listening on port 59019
+1638574253972	geckodriver	INFO	Listening on 127.0.0.1:59080
+1638574257036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilesz1YYP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofilesz1YYP\\search.json.mozlz4", (void 0), 215))
+1638574257625	Marionette	INFO	Marionette enabled
+1638574260807	Marionette	INFO	Listening on port 59088
+1638574261234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638574277342	Marionette	INFO	Stopped listening on port 59088
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638574297307	geckodriver	INFO	Listening on 127.0.0.1:59134
+1638574300358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofiletWLwoL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofiletWLwoL\\search.json.mozlz4", (void 0), 215))
+1638574300959	Marionette	INFO	Marionette enabled
+1638574304223	Marionette	INFO	Listening on port 59143
+1638574304551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638574313080	Marionette	INFO	Stopped listening on port 59143
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638574435899	geckodriver	INFO	Listening on 127.0.0.1:59182
+1638574438954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDVN4fZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pliret\\AppData\\Local\\Temp\\rust_mozprofileDVN4fZ\\search.json.mozlz4", (void 0), 215))
+1638574439640	Marionette	INFO	Marionette enabled
+1638574442510	Marionette	INFO	Listening on port 59190
+1638574442649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://play.pokemonshowdown.com/js/battledata.js?5022b088, line 2781: unreachable code after return statement
+1638574459724	Marionette	INFO	Stopped listening on port 59190
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: can't access property "provider", this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 32184, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

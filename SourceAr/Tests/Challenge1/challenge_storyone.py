@@ -19,7 +19,7 @@ class Test(selenium, unittest.TestCase):
     def setUp(self):
         selenium.open_browser(self, "Challenge1")
         self.api_availability = 0
-        self.pokemon = "tyrogue".lower()
+        self.pokemon = "xurkitree".lower()
         self.ability_count_eq = 0
         self.ability_count_site = 0
 
@@ -35,11 +35,11 @@ class Test(selenium, unittest.TestCase):
         selenium.get_elements(self, "txt_searchbox").send_keys(self.pokemon)
         selenium.send_especific_keys(self, "txt_searchbox", "ENTER")
 
-        list_abilities_stats = story_one.li_list(self, self.pokemon)
+        list_abilities_stats = generic.li_list(self, self.pokemon)
         abilities = story_one.get_abilities(self, self.pokemon)
 
-        list_abilities_stats = story_one.replace_list(self, list_abilities_stats, "-", " ")
-        abilities = story_one.replace_list(self, abilities, "-", " ")
+        list_abilities_stats = generic.replace_list(self, list_abilities_stats, "-", " ")
+        abilities = generic.replace_list(self, abilities, "-", " ")
 
         for obj_abilities_api in abilities:
             for obj_abilities_web in list_abilities_stats:
@@ -50,6 +50,11 @@ class Test(selenium, unittest.TestCase):
             dictionary_api_statistics = story_one.get_stats(self, self.pokemon)
             dictionary_web_statistics = story_one.data_comparison(self, list_abilities_stats)
             flag_statistics = (dictionary_api_statistics == dictionary_web_statistics)
+            if flag_statistics:
+                print("Pokemon: " + str(self.pokemon))
+                print("Abilities: " + str(abilities))
+                print("Stats: " + str(dictionary_api_statistics))
+
             assert flag_statistics, "Stats do not match, test failed!"
         else:
             assert len(abilities) == self.ability_count_eq, "Abilities do not match, test failed!"

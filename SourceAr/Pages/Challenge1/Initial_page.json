@@ -14,10 +14,29 @@
     "ValueToFind": "//body[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[3]/b[1]"
     },
 
-
-    "lst_pokemon_result": {
+    "lst_result": {
     "GetFieldBy": "css",
     "ValueToFind": "body:nth-child(2) div.pfx-panel:nth-child(2) div.pfx-body div.results > ul.utilichart"
+    },
+
+    "btn_move": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/div[2]/div[1]/form[1]/ul[1]/li[3]/button[1]"
+    },
+
+    "spn_result": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//body/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+    },
+
+    "lbl_pp": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/div[3]/div[1]/dl[4]/dd[1]"
+    },
+
+    "lbl_description": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/div[3]/div[1]/p[1]"
     }
 }
       
