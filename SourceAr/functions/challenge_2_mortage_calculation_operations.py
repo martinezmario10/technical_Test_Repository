@@ -31,7 +31,7 @@ class Challenge2:
 
     def clean_fields(self):
         Selenium.get_json_file(self, "Challenge2", "home_page")
-        Selenium.get_elements(self, "btn_com").click()
+        # Selenium.get_elements(self, "btn_com").click()
         Selenium.get_elements(self, "txt_home_price").clear()
         Selenium.get_elements(self, "txt_dollar_down_payment").clear()
         Selenium.get_elements(self, "chk_down_payment").click()
