@@ -37,6 +37,11 @@
     "lbl_description": {
     "GetFieldBy": "xpath",
     "ValueToFind": "/html[1]/body[1]/div[3]/div[1]/p[1]"
+    },
+
+    "btn_pokemon": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/div[2]/div[1]/form[1]/ul[1]/li[2]/button[1]"
     }
 }
       

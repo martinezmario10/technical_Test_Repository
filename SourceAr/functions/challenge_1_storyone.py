@@ -1,5 +1,4 @@
 from Functions.challenge_1_generic import generic_challenge1 as gc
-from Functions.Functions import Functions as selenium
 import requests
 
 

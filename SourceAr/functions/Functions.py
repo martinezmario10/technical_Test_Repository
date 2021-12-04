@@ -49,6 +49,7 @@ class Functions(Initialize):
             options = OpcionesChrome()
             options.add_argument('start-maximized')
             options.add_argument('ignore-certificate-errors')
+
             self.driver = webdriver.Chrome(executable_path=Initialize.basedir + "\\drivers\\chromedriver.exe",
                                            options=options)
             self.driver.get(url[challenge])
@@ -162,9 +163,9 @@ class Functions(Initialize):
                 Functions.tearDown(self)
 
     def get_select_elements(self, entity):
-        Get_Entity = Functions.get_entity(self, entity)
+        get_entity = Functions.get_entity(self, entity)
 
-        if Get_Entity is None:
+        if get_entity is None:
             print("The value was not found in the defined Json")
         else:
             try:
@@ -190,13 +191,6 @@ class Functions(Initialize):
             except TimeoutException:
                 print("Element not found: " + self.json_ValueToFind)
                 Functions.tearDown(self)
-
-    def select_by_text(self, entity, text):
-        Functions.get_select_elements(self, entity).select_by_visible_text(text)
-
-    def send_key_text(self, entity, text):
-        Functions.get_elements(self, entity).clear()
-        Functions.get_elements(self, entity).send_keys(text)
 
     def page_has_loaded(self):
         driver = self.driver
@@ -235,7 +229,6 @@ class Functions(Initialize):
         return img
 
     def select_option(self, select, text):
-        select_objet = Select(select)
         nuevo = select.find_elements_by_tag_name("option")
         self.flag_selection = False
         for option in nuevo:
@@ -296,4 +289,12 @@ class Functions(Initialize):
         if key == 'Space':
             Functions.get_elements(self, element).send_keys(Keys.SPACE)
 
+    def extract_pp(self):
+        extract_text_pp = ""
+        for desc_list in self.driver.find_elements_by_class_name("ppentry"):
+            extract_text_pp = desc_list.find_element_by_xpath("./dt[.='PP:']/following-sibling::dd").text
 
+        return extract_text_pp
+
+    def click_js(self, button):
+        self.driver.execute_script("arguments[0].click();", button)

@@ -4,11 +4,8 @@ Created on Dec 3, 2021
 
 @author: mmartinez
 '''
-import time
 import unittest
-
 import pytest
-
 from SourceAr.Functions.Functions import Functions as selenium
 from Functions.challenge_1_storytwo import Challenge1_storytwo_ as story_two
 from Functions.challenge_1_generic import generic_challenge1 as generic
@@ -23,7 +20,7 @@ class Test(selenium, unittest.TestCase):
 
     def test_story_two(self):
         selenium.get_json_file(self, "Challenge1", "Initial_page")
-        self.api_availability = generic.validate_status(self, generic.get_url(self, "story2", self.attack))
+        self.api_availability = generic.validate_status_query(self, generic.get_url(self, "story2", self.attack))
 
         if self.api_availability == 1:
             pytest.skip("Try again! Check your search!")
@@ -47,7 +44,7 @@ class Test(selenium, unittest.TestCase):
                 print("Attack: " + str(self.attack))
                 print("PP: " + str(value_pp_api))
                 print("Description: " + str(value_description_web))
-            assert value_description_api == value_description_web, "Description is no the same!!"
+            assert value_description_api == value_description_web, "Description is not the same!!"
         else:
             assert int(value_pp_api) == int(value_pp_web[0]), "PP is not the same!!"
 

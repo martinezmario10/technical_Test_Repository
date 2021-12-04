@@ -20,9 +20,8 @@ class Test(selenium, unittest.TestCase):
         self.down_payment = 20
         self.loan_term_years = 30
         self.interest_rate = 4
-        self.zip_code = "00913"
+        self.zip_code = "00914"
         self.flag_selection = True
-        flag_final_result = True
 
     def test_initialize(self):
         if challenge2.numeric_validation(self, self.home_price, self.down_payment, self.loan_term_years,
@@ -32,8 +31,7 @@ class Test(selenium, unittest.TestCase):
         selenium.get_json_file(self, "Challenge2", "home_page")
         challenge2.clean_fields(self)
         months = challenge2.calculation_month(self, self.loan_term_years)
-        result_formula = challenge2.mortgage_calculation(self, self.home_price, self.down_payment, months,
-                                                         self.interest_rate)
+        result_formula = challenge2.mortgage_calculation(self, self.home_price, self.down_payment, months, self.interest_rate)
         selenium.get_elements(self, "txt_home_price").send_keys(str(self.home_price))
 
         if self.down_payment == 0:
@@ -48,10 +46,12 @@ class Test(selenium, unittest.TestCase):
         select_element = selenium.get_elements(self, "slt_loan_term")
         self.flag_selection = selenium.select_option(self, select_element, months)
         if self.flag_selection:
+            selenium.get_elements(self, "txt_interest_rate").clear()
             selenium.get_elements(self, "txt_interest_rate").send_keys(str(self.interest_rate))
+            selenium.get_elements(self, "txt_zip").clear()
             selenium.get_elements(self, "txt_zip").send_keys(str(self.zip_code))
-            selenium.get_elements(self, "chk_taxes_no").click()
-            selenium.get_elements(self, "btn_calculate").click()
+            selenium.click_js(self, selenium.get_elements(self, "chk_taxes_no"))
+            selenium.click_js(self, selenium.get_elements(self, "btn_calculate"))
             selenium.scroll_to(self, "txt_home_price")
             result_website = selenium.get_elements(self, "lbl_fee").text
             result_convert_website = challenge2.convert_result(self, result_website)
