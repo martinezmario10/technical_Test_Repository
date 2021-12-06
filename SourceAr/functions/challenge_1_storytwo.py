@@ -1,5 +1,4 @@
 from Functions.challenge_1_generic import generic_challenge1 as gc
-from Functions.Functions import Functions as selenium
 import requests
 
 
@@ -24,7 +23,7 @@ class Challenge1_storytwo_:
         for description_ in object_information:
             description_value = description_
 
-        return description_
+        return description_value
 
     def data_comparison(self, lista):
         count = 0

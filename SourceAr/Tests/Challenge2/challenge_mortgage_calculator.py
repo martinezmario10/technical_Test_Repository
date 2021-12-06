@@ -59,7 +59,10 @@ class Test(selenium, unittest.TestCase):
                                                                  float(result_convert_website))
 
             if flag_final_result:
+                print("Formula result: $" + str(result_formula))
+                print("Web site result: " + str(result_website))
                 time.sleep(15)
+
                 print("The calculation performed complies with the formula in a 99.99%")
 
             assert flag_final_result, "The calculation performed does NOT comply with the formula in a 99.99%"
