@@ -24,19 +24,20 @@ class Challenge2:
         internal_power = pow(internal_acumulation, n)
         internal_multiplication = (r * internal_power)
         internal_subtraction = (internal_power - 1)
-        resultado1 = internal_multiplication / internal_subtraction
-        final_multiplication = m * resultado1
+        result_part_one = internal_multiplication / internal_subtraction
+        final_multiplication = m * result_part_one
 
         return round(final_multiplication, 2)
 
     def clean_fields(self):
         Selenium.get_json_file(self, "Challenge2", "home_page")
-        Selenium.get_elements(self, "btn_com").click()
+        # Selenium.get_elements(self, "btn_com").click()
+        # Selenium.get_elements(self, "txt_interest_rate").clear()
+        # Selenium.get_elements(self, "txt_zip").clear()
         Selenium.get_elements(self, "txt_home_price").clear()
         Selenium.get_elements(self, "txt_dollar_down_payment").clear()
         Selenium.get_elements(self, "chk_down_payment").click()
-        Selenium.get_elements(self, "txt_interest_rate").clear()
-        Selenium.get_elements(self, "txt_zip").clear()
+
 
     def numeric_validation(self, home_price, down_payment, loan_term_years, interest_rate, zip_code):
         count = 0
