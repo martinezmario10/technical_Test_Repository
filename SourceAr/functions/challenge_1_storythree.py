@@ -15,6 +15,7 @@ class Challenge1_storythree_:
 
         return object_information
 
+    # Skills are obtained from the search result.
     def li_ability_result(self):
         html_list = selenium.get_elements(self, "lst_result")
         listq = html_list.find_elements_by_xpath("//span[@class='col pokemonnamecol']")

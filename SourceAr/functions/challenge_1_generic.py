@@ -3,7 +3,7 @@ import requests
 
 
 class generic_challenge1:
-
+    # check api response code
     def get_status_code(self, uri):
         response = requests.get(uri, params=None)
         return response.status_code
@@ -22,6 +22,7 @@ class generic_challenge1:
             self.url += "/api/v2/ability/" + pokemon
             return self.url
 
+    # api response check with sent parameter.
     def validate_status_query(self, url):
         response_search = generic_challenge1.get_status_code(self, url)
         response_api = generic_challenge1.get_status_code(self, selenium.get_api_endpoint(self, "general"))
@@ -34,6 +35,7 @@ class generic_challenge1:
 
         return count
 
+    # general replacement method, character by character.
     def replace_list(self, element_list, first_character, second_character):
         list_return = []
         for objetc_list in element_list:
@@ -48,6 +50,7 @@ class generic_challenge1:
 
         return list_return
 
+    # List pokédex search results.
     def li_list(self, value_to_compare):
         html_list = selenium.get_elements(self, "lst_result")
         items = html_list.find_elements_by_tag_name("li")

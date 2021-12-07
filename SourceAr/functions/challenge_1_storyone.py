@@ -27,6 +27,7 @@ class Challenge1_storyone_:
         object_information_stats = dict(zip(array_stat, array_base_state))
         return object_information_stats
 
+    # header formatting by name difference.
     def data_comparison(self, lista):
         count = 0
         header_statistics = []
