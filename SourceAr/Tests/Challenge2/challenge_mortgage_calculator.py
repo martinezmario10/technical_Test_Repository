@@ -15,6 +15,7 @@ from Functions.challenge_2_mortage_calculation_operations import Challenge2 as c
 class Test(selenium, unittest.TestCase):
 
     def setUp(self):
+        # value formatting
         selenium.open_browser(self, "Challenge2")
         self.home_price = 250000
         self.down_payment = 20
@@ -28,9 +29,12 @@ class Test(selenium, unittest.TestCase):
                                          self.interest_rate, self.zip_code) < 5:
             pytest.skip("Invalid value")
 
+        # Test start, we clean fields,
         selenium.get_json_file(self, "Challenge2", "home_page")
         challenge2.clean_fields(self)
         months = challenge2.calculation_month(self, self.loan_term_years)
+
+        # internal result
         result_formula = challenge2.mortgage_calculation(self, self.home_price, self.down_payment, months, self.interest_rate)
         selenium.get_elements(self, "txt_home_price").send_keys(str(self.home_price))
 
@@ -53,8 +57,12 @@ class Test(selenium, unittest.TestCase):
             selenium.click_js(self, selenium.get_elements(self, "chk_taxes_no"))
             selenium.click_js(self, selenium.get_elements(self, "btn_calculate"))
             selenium.scroll_to(self, "txt_home_price")
+
+            # result obtained on website
             result_website = selenium.get_elements(self, "lbl_fee").text
             result_convert_website = challenge2.convert_result(self, result_website)
+
+            # formula compliance verification
             flag_final_result = challenge2.compliance_percentage(self, float(result_formula),
                                                                  float(result_convert_website))
 
