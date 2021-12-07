@@ -14,6 +14,7 @@ from Functions.challenge_1_generic import generic_challenge1 as generic
 class Test(selenium, unittest.TestCase):
 
     def setUp(self):
+        # value formatting
         selenium.open_browser(self, "Challenge1")
         self.api_availability = 0
         self.pokemon = "pikachu".lower()
@@ -24,10 +25,13 @@ class Test(selenium, unittest.TestCase):
         selenium.get_json_file(self, "Challenge1", "Initial_page")
         self.api_availability = generic.validate_status_query(self, generic.get_url(self, "story1", self.pokemon))
 
+        # validate availability of initial values.
         if self.api_availability == 1:
             pytest.skip("Try again! Check your search!")
         elif self.api_availability == 0:
             pytest.skip("api not available")
+        elif self.pokemon == "":
+            pytest.skip("Try again! Check your search!")
 
         selenium.get_elements(self, "txt_searchbox").send_keys(self.pokemon)
         selenium.send_especific_keys(self, "txt_searchbox", "ENTER")
@@ -35,9 +39,11 @@ class Test(selenium, unittest.TestCase):
         list_abilities_stats_web = generic.li_list(self, self.pokemon)
         list_abilities_stats_api = story_one.get_abilities(self, self.pokemon)
 
+        # character replacement
         list_abilities_stats_web = generic.replace_list(self, list_abilities_stats_web, "-", " ")
         list_abilities_stats_api = generic.replace_list(self, list_abilities_stats_api, "-", " ")
 
+        # comparison of the count of skills that are identical from both the api and pokédex
         for obj_abilities_api in list_abilities_stats_api:
             for obj_abilities_web in list_abilities_stats_web:
                 if (obj_abilities_api == obj_abilities_web):
@@ -46,6 +52,8 @@ class Test(selenium, unittest.TestCase):
         if (len(list_abilities_stats_api) == self.ability_count_eq):
             dictionary_statistics_api = story_one.get_stats(self, self.pokemon)
             dictionary_statistics_web = story_one.data_comparison(self, list_abilities_stats_web)
+
+            # verification of identical statistics.
             flag_statistics = (dictionary_statistics_api == dictionary_statistics_web)
             if flag_statistics:
                 print("Pokemon: " + str(self.pokemon))
