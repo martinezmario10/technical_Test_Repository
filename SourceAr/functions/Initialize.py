@@ -11,7 +11,7 @@ class Initialize():
     environment = 'QA'
 
     # Test Browser
-    browser = u'FIREFOX'
+    browser = u'CHROME'
 
     # Directory / Evidence Storage During Execution
     path_evidences = basedir + u'\Data\ScreenShots'
