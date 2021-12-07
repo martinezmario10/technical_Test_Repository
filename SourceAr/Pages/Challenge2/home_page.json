@@ -1,5 +1,5 @@
 {
-    "btn_com": {
+    "btn_ads": {
     "GetFieldBy": "Xpath",
     "ValueToFind": "//body/div[6]/div[1]/button[1]/*[1]"
     },

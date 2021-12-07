@@ -1,3 +1,4 @@
+from selenium.webdriver.common.keys import Keys
 from SourceAr.Functions.Initialize import Initialize
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
 from selenium.webdriver.ie.options import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options as OpcionesChrome
-from selenium.webdriver.common.action_chains import ActionChains
 import pytest
 import json
 import time
@@ -49,6 +49,7 @@ class Functions(Initialize):
             options = OpcionesChrome()
             options.add_argument('start-maximized')
             options.add_argument('ignore-certificate-errors')
+
             self.driver = webdriver.Chrome(executable_path=Initialize.basedir + "\\drivers\\chromedriver.exe",
                                            options=options)
             self.driver.get(url[challenge])
@@ -76,6 +77,9 @@ class Functions(Initialize):
     def tearDown(self):
         print("The driver is closed")
         self.driver.quit()
+
+    def get_api_endpoint(self, endpoint):
+        return Initialize.api_endpoint[endpoint]
 
     def get_json_file(self, directory, file):
         json_path = Initialize.Json + "/" + directory + "/" + file + '.json'
@@ -128,15 +132,15 @@ class Functions(Initialize):
                 if self.json_GetFieldBy.lower() == "xpath":
                     if my_text_element is not None:
                         self.json_ValueToFind = self.json_ValueToFind.format(my_text_element)
-                    wait.until(EC.invisibility_of_element_located((By.XPATH, "//body/div[6]/div[1]/div[1]/img[1]")))
+                    # wait.until(EC.invisibility_of_element_located((By.XPATH, "//body/div[6]/div[1]/div[1]/img[1]")))
                     wait.until(EC.visibility_of_element_located((By.XPATH, self.json_ValueToFind)))
                     wait.until(EC.element_to_be_clickable((By.XPATH, self.json_ValueToFind)))
                     elements = self.driver.find_element_by_xpath(self.json_ValueToFind)
 
                 if self.json_GetFieldBy.lower() == "link":
-                    wait.until(EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, self.json_ValueToFind)))
-                    wait.until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, self.json_ValueToFind)))
-                    elements = self.driver.find_element_by_partial_link_text(self.json_ValueToFind)
+                    wait.until(EC.visibility_of_element_located((By.LINK_TEXT, self.json_ValueToFind)))
+                    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, self.json_ValueToFind)))
+                    elements = self.driver.find_element_by_link_text(self.json_ValueToFind)
 
                 if self.json_GetFieldBy.lower() == "css":
                     wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.json_ValueToFind)))
@@ -159,9 +163,9 @@ class Functions(Initialize):
                 Functions.tearDown(self)
 
     def get_select_elements(self, entity):
-        Get_Entity = Functions.get_entity(self, entity)
+        get_entity = Functions.get_entity(self, entity)
 
-        if Get_Entity is None:
+        if get_entity is None:
             print("The value was not found in the defined Json")
         else:
             try:
@@ -187,13 +191,6 @@ class Functions(Initialize):
             except TimeoutException:
                 print("Element not found: " + self.json_ValueToFind)
                 Functions.tearDown(self)
-
-    def select_by_text(self, entity, text):
-        Functions.get_select_elements(self, entity).select_by_visible_text(text)
-
-    def send_key_text(self, entity, text):
-        Functions.get_elements(self, entity).clear()
-        Functions.get_elements(self, entity).send_keys(text)
 
     def page_has_loaded(self):
         driver = self.driver
@@ -232,7 +229,6 @@ class Functions(Initialize):
         return img
 
     def select_option(self, select, text):
-        select_objet = Select(select)
         nuevo = select.find_elements_by_tag_name("option")
         self.flag_selection = False
         for option in nuevo:
@@ -285,49 +281,20 @@ class Functions(Initialize):
                 print("get_text: Element not present: " + self.json_ValueToFind)
                 Functions.tearDown(self)
 
-    def mouse_over(self, locator):
-        get_entity = Functions.get_entity(self, locator)
-        if get_entity is None:
-            return print("No se encontro el valor en el Json definido")
-        else:
-            try:
-                if self.json_GetFieldBy.lower() == "id":
-                    locator_ = self.driver.find_element(By.ID, self.json_ValueToFind)
-                    action = ActionChains(self.driver)
-                    action.move_to_element(locator_)
-                    action.click(locator_)
-                    action.perform()
-                    print(u"mouse_over: " + locator)
-                    return True
+    def send_especific_keys(self, element, key):
+        if key == 'Enter':
+            Functions.get_elements(self, element).send_keys(Keys.ENTER)
+        if key == 'Tab':
+            Functions.get_elements(self, element).send_keys(Keys.TAB)
+        if key == 'Space':
+            Functions.get_elements(self, element).send_keys(Keys.SPACE)
 
-                if self.json_GetFieldBy.lower() == "xpath":
-                    locator_ = self.driver.find_element(By.XPATH, self.json_ValueToFind)
-                    action = ActionChains(self.driver)
-                    action.move_to_element(locator_)
-                    action.click(locator_)
-                    action.perform()
-                    print(u"mouse_over: " + locator)
-                    return True
+    def extract_pp(self):
+        extract_text_pp = ""
+        for desc_list in self.driver.find_elements_by_class_name("ppentry"):
+            extract_text_pp = desc_list.find_element_by_xpath("./dt[.='PP:']/following-sibling::dd").text
 
-                if self.json_GetFieldBy.lower() == "link":
-                    locator_ = self.driver.find_element(By.PARTIAL_LINK_TEXT, self.json_ValueToFind)
-                    action = ActionChains(self.driver)
-                    action.move_to_element(locator_)
-                    action.click(locator_)
-                    action.perform()
-                    print(u"mouse_over: " + locator)
-                    return True
+        return extract_text_pp
 
-                if self.json_GetFieldBy.lower() == "name":
-                    locator_ = self.driver.find_element(By.NAME, self.json_ValueToFind)
-                    action = ActionChains(self.driver)
-                    action.move_to_element(locator_)
-                    action.click(locator_)
-                    action.perform()
-                    print(u"mouse_over: " + locator)
-                    return True
-
-            except TimeoutException:
-                print(u"mouse_over: No presente " + locator)
-                Functions.tearDown(self)
-                return None
+    def click_js(self, button):
+        self.driver.execute_script("arguments[0].click();", button)
