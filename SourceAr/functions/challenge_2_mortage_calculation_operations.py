@@ -9,11 +9,11 @@ class Challenge2:
 
     def mortgage_calculation(self, home_price, down_payment, months, interest_rate):
 
-        # Formula = M ( r(1 + r)^n ) / ( (1 + r)^n – 1 )
-        # C = Cuota a pagar mensualmente.
-        # M = Monto total de la hipoteca(menos el pago inicial).
-        # i = Tasade interés mensual.I = 4 % dividido entre12 = 0.04 / 12 = 0.0033333
-        # n = Total de meses en los que se pagará la hipoteca.
+        # INITIAL Formula = M ( r(1 + r)^n ) / ( (1 + r)^n – 1 )
+        # C = Fee to be paid monthly.
+        # M = Total amount of the mortgage (less the down payment)
+        # i = Monthly interest rate.I = 4 % DIVIDED 12 = 0.04 / 12 = 0.0033333
+        # n = Total months in which the mortgage will be paid.
 
         # sectioned formula
         m = home_price - (home_price * (down_payment / 100))
@@ -38,7 +38,7 @@ class Challenge2:
         Selenium.get_elements(self, "txt_dollar_down_payment").clear()
         Selenium.get_elements(self, "chk_down_payment").click()
 
-
+    # data formatting for integers or floats is validated.
     def numeric_validation(self, home_price, down_payment, loan_term_years, interest_rate, zip_code):
         count = 0
         all_values = [home_price, down_payment, loan_term_years, interest_rate]

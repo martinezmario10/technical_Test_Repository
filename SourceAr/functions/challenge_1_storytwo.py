@@ -25,6 +25,7 @@ class Challenge1_storytwo_:
 
         return description_value
 
+    # get pp value from a previous position.
     def data_comparison(self, lista):
         count = 0
         value_pp_attack = ""

@@ -81,6 +81,7 @@ class Functions(Initialize):
     def get_api_endpoint(self, endpoint):
         return Initialize.api_endpoint[endpoint]
 
+    # Gets the specified json
     def get_json_file(self, directory, file):
         json_path = Initialize.Json + "/" + directory + "/" + file + '.json'
         try:
